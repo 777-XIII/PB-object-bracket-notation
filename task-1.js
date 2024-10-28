@@ -4,3 +4,13 @@ const product = {
   brand: "Awesome Tees",
   price: 19.99,
 };
+
+const key = "color";
+
+console.log(product[key]); 
+
+// bonus
+
+const noKey = "size";
+
+console.log(product[noKey]); // undefined
